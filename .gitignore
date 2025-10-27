@@ -19,3 +19,20 @@ yarn-error.log
 uploads/
 dist/
 build/
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env files
+.env
+.env.*.local
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Uploads / builds
+uploads/
+dist/
+build/
