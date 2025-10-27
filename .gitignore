@@ -1,0 +1,21 @@
+
+.env
+
+node_modules# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Uploads / build
+uploads/
+dist/
+build/
