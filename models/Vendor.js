@@ -1,3 +1,6 @@
+const Vendor = require('./Vendor');
+
+module.exports = Vendor;
 const mongoose = require('mongoose');
 
 const vendorSchema = new mongoose.Schema({
