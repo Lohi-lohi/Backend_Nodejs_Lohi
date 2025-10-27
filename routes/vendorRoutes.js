@@ -13,3 +13,4 @@ router.get('/single-vendor/:apple', vendorController.getVendorById);
 router.get('/single-vendors/:id', vendorController.getVendorById);
 
 module.exports = router;
+

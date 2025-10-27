@@ -1,6 +1,6 @@
 
 const Firm = require('../models/Firm');
-const Vendor = require('../models/Vendor');
+const Vendor = require('../models/vendor');
 const multer = require('multer');
 const path = require('path');
 
@@ -141,3 +141,4 @@ module.exports = {
     deleteFirmById: deleteFirmById,
 };
    
+

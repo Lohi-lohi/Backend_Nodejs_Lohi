@@ -1,4 +1,4 @@
-const Vendor = require('../models/Vendor');
+const Vendor = require('../models/vendor');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const dotEnv = require('dotenv');
@@ -91,3 +91,4 @@ const getVendorById = async (req, res) => {
 
 
 module.exports = { vendorRegister, vendorLogin, getAllVendors, getVendorById }
+
